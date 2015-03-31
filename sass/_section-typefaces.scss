@@ -1,0 +1,51 @@
+.typeface {
+	padding-right: 30px;
+}
+
+.font-block {
+	color: $primary-grey;
+	line-height: 1.2em;
+	letter-spacing: -1px;
+}
+
+.font-name {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.main-light {
+	font-family: $MainFont-Light;
+}
+
+.main-book {
+	font-family: $MainFont-Book;
+}
+
+.main-bold {
+	font-family: $MainFont-Bold;
+}
+
+.main-black {
+	font-family: $MainFont-Black;
+}
+
+.secondary-regular {
+	font-family: $SecondaryFont-Regular;
+}
+
+.secondary-bold {
+	font-family: $SecondaryFont-Bold;
+}
+
+.secondary-black {
+	font-family: $SecondaryFont-Black;
+}
+
+.tertiary-regular {
+	font-family: $TertiaryFont-Regular;
+}
+
+.tertiary-bold {
+	font-family: $TertiaryFont-Bold;
+	font-weight: bold;
+}

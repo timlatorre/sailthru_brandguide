@@ -1,0 +1,62 @@
+.color_item {
+	padding: 20px 15px 0 15px;
+}
+
+.color_item p {
+	font-family: $MainFont-Book;
+	font-size: 12px;
+}
+
+.bold {
+	font-family: $MainFont-Bold;
+}
+
+.color_value {
+	display: inline-block;
+}
+
+.color_swatch{
+	width:100%;
+	height: 100px; 
+	padding: 0 10px;
+}
+
+#main_swatch_1 {
+	background-color: $sailthru-blue;
+}
+
+#primary_swatch_1 {
+	background-color: $primary-black;
+}
+
+#primary_swatch_2 {
+	background-color: $primary-white;
+}
+
+#primary_swatch_3 {
+	background-color: $primary-grey;
+}
+
+#primary_swatch_4 {
+	background-color: $primary-purple;
+}
+
+#primary_swatch_5 {
+	background-color: $primary-yellow;
+}
+
+#secondary_swatch_1 {
+	background-color: $secondary-green;
+}
+
+#secondary_swatch_2 {
+	background-color: $secondary-yellow;
+}
+
+#secondary_swatch_3 {
+	background-color: $secondary-red;
+}
+
+#secondary_swatch_4 {
+	background-color: $secondary-purple;
+}

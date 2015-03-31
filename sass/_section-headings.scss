@@ -1,0 +1,14 @@
+@for $i from 0 through 4 {
+  .headings h#{$i+1} {
+    color: $primary-grey;
+    border: none;
+    font-family: $MainFont-Book;
+    margin: 15px 0;
+  }
+}
+
+.heading_size {
+	color: $primary-black;
+	width: 100px;
+	display: inline-block;
+}

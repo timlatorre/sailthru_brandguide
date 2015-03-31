@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'GothamNarrow-Light';
+  src: url(../fonts/GothamNarrow-Light.otf);
+}
+
+@font-face {
+  font-family: 'GothamNarrow-Book';
+  src: url(../fonts/GothamNarrow-Book.otf);
+}
+
+@font-face {
+  font-family: 'GothamNarrow-Bold';
+  src: url(../fonts/GothamNarrow-Bold.otf);
+}
+
+@font-face {
+  font-family: 'GothamNarrow-Black';
+  src: url(../fonts/GothamNarrow-Black.otf);
+}
+
+@font-face {
+  font-family: 'GothamNarrow-Black';
+  src: url(../fonts/GothamNarrow-Black.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url(../fonts/ProximaNovaReg.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url(../fonts/ProximaNovaBold.otf);
+}
+
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url(../fonts/ProximaNovaBlack.otf);
+}
+
+$MainFont-Light: 'GothamNarrow-Light', Arial, sans-serif;
+$MainFont-Book: 'GothamNarrow-Book', Arial, sans-serif;
+$MainFont-Bold: 'GothamNarrow-Bold', Arial, sans-serif;
+$MainFont-Black: 'GothamNarrow-Black', Arial, sans-serif;
+
+$SecondaryFont-Regular: 'ProximaNova-Regular', Arial, sans-serif;
+$SecondaryFont-Bold: 'ProximaNova-Bold', Arial, sans-serif;
+$SecondaryFont-Black: 'ProximaNova-Black', Arial, sans-serif;
+
+$TertiaryFont-Regular: Arial, sans-serif;
+$TertiaryFont-Bold: Arial, sans-serif;

@@ -1,0 +1,23 @@
+body{
+    margin:0;
+}
+
+.clear {
+    clear:both;
+}
+
+.right {
+	float: right !important;
+}
+
+#container{
+    width:80%;
+    max-width:1090px;
+    margin:0 auto;
+}
+
+@for $i from 0 through 4 {
+    h#{$i+1} {
+        font-size: #{36-($i*6)}px;
+    }
+}

@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'GothamNarrow-Light';
+  src: url(../fonts/GothamNarrow-Light.otf); }
+@font-face {
+  font-family: 'GothamNarrow-Book';
+  src: url(../fonts/GothamNarrow-Book.otf); }
+@font-face {
+  font-family: 'GothamNarrow-Bold';
+  src: url(../fonts/GothamNarrow-Bold.otf); }
+@font-face {
+  font-family: 'GothamNarrow-Black';
+  src: url(../fonts/GothamNarrow-Black.otf); }
+@font-face {
+  font-family: 'GothamNarrow-Black';
+  src: url(../fonts/GothamNarrow-Black.otf); }
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url(../fonts/ProximaNovaReg.otf); }
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url(../fonts/ProximaNovaBold.otf); }
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url(../fonts/ProximaNovaBlack.otf); }
+body {
+  margin: 0; }
+
+.clear {
+  clear: both; }
+
+.right {
+  float: right !important; }
+
+#container {
+  width: 80%;
+  max-width: 1090px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 12px; }
+
+.cols_1 {
+  width: 100%;
+  float: left; }
+
+.cols_2 {
+  width: 50%;
+  float: left; }
+
+.cols_3 {
+  width: 33.33333%;
+  float: left; }
+
+.cols_4 {
+  width: 25%;
+  float: left; }
+
+.cols_5 {
+  width: 20%;
+  float: left; }
+
+.cols_6 {
+  width: 16.66667%;
+  float: left; }
+
+.button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; }
+
+#logo img {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+  float: left; }
+
+#logo h1 {
+  float: left;
+  padding: 0 0 0 20px;
+  font-family: "GothamNarrow-Light", Arial, sans-serif;
+  color: #00CCED; }
+
+header {
+  border-bottom: solid 1px #6D6E70; }
+
+.section h2 {
+  font-family: "GothamNarrow-Bold", Arial, sans-serif;
+  color: #00CCED;
+  margin: 40px 0 15px 0; }
+
+.section h3 {
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  color: #404041;
+  width: 100%;
+  border-bottom: solid 1px #00CCED;
+  margin: 0 0 20px 0; }
+
+.logos {
+  padding: 10%; }
+
+#logo_white {
+  background-color: #00CCED; }
+
+.typeface {
+  padding-right: 30px; }
+
+.font-block {
+  color: #6D6E70;
+  line-height: 1.2em;
+  letter-spacing: -1px; }
+
+.font-name {
+  font-size: 12px;
+  letter-spacing: 1px; }
+
+.main-light {
+  font-family: "GothamNarrow-Light", Arial, sans-serif; }
+
+.main-book {
+  font-family: "GothamNarrow-Book", Arial, sans-serif; }
+
+.main-bold {
+  font-family: "GothamNarrow-Bold", Arial, sans-serif; }
+
+.main-black {
+  font-family: "GothamNarrow-Black", Arial, sans-serif; }
+
+.secondary-regular {
+  font-family: "ProximaNova-Regular", Arial, sans-serif; }
+
+.secondary-bold {
+  font-family: "ProximaNova-Bold", Arial, sans-serif; }
+
+.secondary-black {
+  font-family: "ProximaNova-Black", Arial, sans-serif; }
+
+.tertiary-regular {
+  font-family: Arial, sans-serif; }
+
+.tertiary-bold {
+  font-family: Arial, sans-serif;
+  font-weight: bold; }
+
+.color_item {
+  padding: 20px 15px 0 15px; }
+
+.color_item p {
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  font-size: 12px; }
+
+.bold {
+  font-family: "GothamNarrow-Bold", Arial, sans-serif; }
+
+.color_value {
+  display: inline-block; }
+
+.color_swatch {
+  width: 100%;
+  height: 100px;
+  padding: 0 10px; }
+
+#main_swatch_1 {
+  background-color: #00CCED; }
+
+#primary_swatch_1 {
+  background-color: #404041; }
+
+#primary_swatch_2 {
+  background-color: #EEECE1; }
+
+#primary_swatch_3 {
+  background-color: #6D6E70; }
+
+#primary_swatch_4 {
+  background-color: #864A7F; }
+
+#primary_swatch_5 {
+  background-color: #F5EB00; }
+
+#secondary_swatch_1 {
+  background-color: #75A863; }
+
+#secondary_swatch_2 {
+  background-color: #EFB145; }
+
+#secondary_swatch_3 {
+  background-color: #D86148; }
+
+#secondary_swatch_4 {
+  background-color: #86487D; }
+
+.headings h1 {
+  color: #6D6E70;
+  border: none;
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  margin: 15px 0; }
+
+.headings h2 {
+  color: #6D6E70;
+  border: none;
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  margin: 15px 0; }
+
+.headings h3 {
+  color: #6D6E70;
+  border: none;
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  margin: 15px 0; }
+
+.headings h4 {
+  color: #6D6E70;
+  border: none;
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  margin: 15px 0; }
+
+.headings h5 {
+  color: #6D6E70;
+  border: none;
+  font-family: "GothamNarrow-Book", Arial, sans-serif;
+  margin: 15px 0; }
+
+.heading_size {
+  color: #404041;
+  width: 100px;
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
